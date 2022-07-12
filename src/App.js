@@ -5,9 +5,11 @@ const dictionary = {
   "😊": "smiling",
   "😳": "disbelief",
   "😔": "sad",
-  "🥡": "takeout box",
   "❤️": "love",
-  "😑": "annoyance"
+  "😑": "annoyance",
+  "🤔": "Thinking Face",
+  "🤪": "Zany Face",
+  "🤐": "Zipper-Mouth Face"
 };
 var emojishow = Object.keys(dictionary);
 export default function App() {
