@@ -2,14 +2,16 @@ import { useState } from "react";
 import "./styles.css";
 
 const dictionary = {
-  "😊": "smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "❤️": "love",
-  "😑": "annoyance",
-  "🤔": "Thinking Face",
-  "🤪": "Zany Face",
-  "🤐": "Zipper-Mouth Face"
+  "👋": "Waving Hand",
+  "✋": "Raised Hand",
+  "👌": "OK Hand",
+  "🖖": "Vulcan Salute",
+  "✌️": "Victory Hand",
+  "🤞": "Crossed Fingers",
+  "🤟": "Love-You Gesture",
+  "🤙": "Call Me Hand",
+  "👏": "Clapping Hands",
+  "🤝": "Handshake"
 };
 var emojishow = Object.keys(dictionary);
 export default function App() {
@@ -29,6 +31,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Emoji Interpretor</h1>
+      <h3>Hand Emojis</h3>
       <input onChange={inputChangeHandler} />
       <h2>{meaning}</h2>
       <h3> Emoji's we know</h3>
