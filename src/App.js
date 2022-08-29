@@ -11,7 +11,11 @@ const dictionary = {
   "🤟": "Love-You Gesture",
   "🤙": "Call Me Hand",
   "👏": "Clapping Hands",
-  "🤝": "Handshake"
+  "🤝": "Handshake",
+  "🙏": "Folded Hands",
+  "✍️": "Writing Hand",
+  "🤏": "Pinching Hand"
+  
 };
 var emojishow = Object.keys(dictionary);
 export default function App() {
